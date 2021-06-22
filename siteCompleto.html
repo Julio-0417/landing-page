@@ -8,12 +8,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <style>
+      .tm-social {
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+
     <title>Kyoshi!</title>
   </head>
   <body>
       <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Kyoshi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,24 +28,27 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+              <a class="nav-link" href="#">Home<span class="sr-only">(página atual)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="https://avatar.fandom.com/wiki/Kyoshi">Wiki</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Membros</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Redes
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
+                <a class="dropdown-item" href="https://www.facebook.com/">Facebook</a>
+                <a class="dropdown-item" href="https://www.instagram.com/">Instagram</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
+                <a class="dropdown-item" href="https://www.amazon.com.br/s?k=Avatar+Kyoshi&i=stripbooks&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss">Loja</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Desativado</a>
+              <a class="nav-link disabled" href="#">FAQ</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -81,11 +91,11 @@
       <!--Jumbotron-->
 
       <div class="jumbotron">
-        <h1 class="display-4">Kyoshi, melhor avatar!</h1>
-        <p class="lead">Este é um simples componente jumbotron para chamar mais atenção a um determinado conteúdo ou informação.</p>
+        <h1 class="display-4">"Apenas justiça trará a paz!"</h1>
+        <p class="lead">- Kyoshi aconselhando Aang.</p>
         <hr class="my-4">
-        <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
+        <p></p>
+        <a class="btn btn-primary btn-lg" href="https://avatar.fandom.com/pt-br/wiki/Kyoshi" role="button">Leia mais</a>
       </div>
       <!--Jumbotron-->
 
@@ -93,10 +103,10 @@
       <div class="container">
         <div class="card-columns">
             <div class="card">
-              <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+              <img class="card-img-top" src="assets/img/guerreiras.png" alt="Imagem de capa do card">
               <div class="card-body">
-                <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-                <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                <h5 class="card-title">Guerreiras de Kyoshi</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea ex facilis, corporis exercitationem, architecto voluptas dicta praesentium facere nisi suscipit provident quod, tenetur ab et. Non at perspiciatis molestias error.</p>
               </div>
             </div>
             <div class="card p-3">
@@ -104,16 +114,16 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 <footer class="blockquote-footer">
                   <small class="text-muted">
-                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                    Alguém famoso em <cite title="Título da fonte">Título da Fonte</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
             <div class="card">
-              <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+              <img class="card-img-top" src="assets/img/fanart.jpg" alt="Imagem de capa do card">
               <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                <h5 class="card-title">Fanart</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam provident similique, illum delectus fugiat quae. Accusamus eum quidem assumenda aspernatur vitae voluptatibus? Eius quis mollitia placeat consequatur voluptatibus nobis voluptate.</p>
                 <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
               </div>
             </div>
@@ -129,13 +139,13 @@
             </div>
             <div class="card text-center">
               <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                <h5 class="card-title">Novidades</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, hic libero magnam possimus quae culpa animi explicabo consectetur similique voluptate itaque laborum cumque voluptas ab quos numquam! Beatae, perferendis itaque!</p>
                 <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
               </div>
             </div>
             <div class="card">
-              <img class="card-img" src=".../100px260/" alt="Imagem do card">
+              <img class="card-img" src="assets/img/livro.jpg" alt="Imagem do card">
             </div>
             <div class="card p-3 text-right">
               <blockquote class="blockquote mb-0">
@@ -147,13 +157,14 @@
                 </footer>
               </blockquote>
             </div>
+            <!--
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Título do card</h5>
                 <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
                 <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-              </div>
-            </div>
+              </div> 
+            </div> -->
           </div>
       
 
@@ -165,28 +176,110 @@
           <div class="col-md-6">
               <h3>Kyoshi</h3>
               <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae rem est enim officia quasi voluptate similique quaerat possimus, dolore autem temporibus veritatis eius voluptas reiciendis saepe nihil ipsum laboriosam sit.
-              </p>
-              <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod reiciendis eum fuga odit nulla pariatur laborum quo, voluptate illum quisquam ea quaerat? Consequatur, accusantium. Similique provident aliquid maiores veniam repellendus.
-              </p>
-              <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sit quaerat odio similique dolore id maiores deserunt iure recusandae praesentium, eos et eveniet dolor dolorem veritatis pariatur perferendis cum molestiae.
+                Kyoshi foi uma encarnação anterior do Avatar, nascida no Reino da Terra, numa península que, devido à sua Dobra de Terra foi transformada numa ilha, que recebeu seu nome, a Ilha Kyoshi. Ela era a Avatar imediatamente posterior ao Avatar da Tribo da Água, Kuruk, e anterior ao Avatar Roku, da Nação do Fogo, respectivamente, cerca de 412 anos antes da descoberta de Aang na Tribo da Água do Sul. Kyoshi era uma mulher gigantesca, possuindo os maiores pés de qualquer Avatar, fato ligado à sua nacionalidade. Ela viveu até os 230 anos de idade, dando-lhe também o título de Avatar com maior longevidade conhecida. Suas armas tradicionais eram leques de metal que, além de sua maneira de vestir e estilo de luta, foram adotados pelas jovens mulheres guerreiras Kyoshi.
+
+Ao contrário de seus sucessores Roku e Aang, Kyoshi acreditava que só a verdadeira justiça poderia trazer a paz, e não tinha problemas em matar os inimigos para atingir esse objetivo. Inclusive, ela fundou o Dai Li para proteger Ba Sing Se de futuras revoltas. Ela era assim, um Avatar geralmente eficaz.
               </p>
           </div>
-          <div>
-              <div class="col md-6">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/lIX2Ex7v-18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+              <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BRwogz7KLWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-          </div>
+          
       </div>
 
       <!--/Texto e Vídeo-->
+
+      <!--Formulário de contato-->
+
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <h4 class="text-center">
+          Entre em contato conosco!
+        </h4>
+      </div>
     </div>
+
+    <div class="row d-flex align-items-center">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Endereço de email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" onkeyup='validaEmail()'>
+            <div id='txtEmail'></div>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Categoria</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Crítica</option>
+              <option>Elogio</option>
+              <option>Reclamação</option>
+              <option>Vim defender o Aang</option>
+              <option>Vim falar bem da Korra</option>
+            </select>
+          </div>
+         
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Comentário</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" onkeyup='validaAssunto()'></textarea>
+            <div id='txtAssunto'></div>
+          </div>
+
+          <div class="form-group d-flex justify-content-end">
+            <button class="btn btn-outline-success" onclick="enviar()">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove='mapaZoom()' onmouseout='mapaNormal()' Id = 'mapa'></iframe>
+      </div>
+    </div>
+
+    
+
+    <!--/Formulário de contato-->
+
+      <!--Rodapé-->
+      <hr>
+      <footer>
+        <div class="row mb-3">
+          <div class="col-md-12 d-flex justify-content-center">
+            
+              <a href="https://www.linkedin.com/" target="_blank" class= "p-3">
+                  <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+              </a>
+              <a href="https://www.facebook.com/" target="_blank" class= "p-3">
+                  <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
+              </a>       
+              <a href="https://www.instagram.com/" target="_blank" class= "p-3">
+                  <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
+              </a> 
+          
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col-md-12">
+            <p class="text-center">
+              Todos os direitos reservados: Julio Santos &copy
+          </p>
+          </div>
+        </div>
+        
+        
+    </footer>
+      <!--/Rodapé-->
+
+    </div>
+
+    
 
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="assets/js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
